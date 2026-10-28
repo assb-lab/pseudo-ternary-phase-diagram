@@ -71,6 +71,10 @@ pnpm build      # tsc -b && vp build
 | `src/components/`           | 相図 (SVG) と表示部品                  |
 | `src/sample/`               | 同梱サンプル (MP Cl-Li-P-S, CC BY 4.0) |
 
+## ライセンス
+
+コードは [MIT License](LICENSE) (© 2026 assb-lab)。同梱データ `src/sample/` は下記の CC BY 4.0 に従います。
+
 ## データ
 
 Materials Project, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
