@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-ternary phase diagram</title>
+    <script>
+      // Apply the saved theme and language before first paint (see src/theme.ts, src/i18n).
+      try {
+        var t = localStorage.getItem("ptpd.theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+        var l = localStorage.getItem("ptpd.lang");
+        document.documentElement.lang =
+          l === "ja" || l === "en" ? l : /^ja/i.test(navigator.language) ? "ja" : "en";
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
