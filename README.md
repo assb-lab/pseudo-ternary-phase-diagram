@@ -25,8 +25,13 @@ MP のウェブサイトの相図は元素を頂点とする三元系にしか�
 
 ## 使い方
 
+開発環境は Node.js **26.13.0** / pnpm **12.16.1** です。
+`package.json` の `devEngines` に両方のバージョンを固定しています。
+Vite+ を利用する場合は `vp env install` でこの環境を準備できます。
+それ以外の場合も Node.js 26.13.0 と pnpm 12.16.1 を用意してください。
+
 ```bash
-pnpm install
+pnpm install --frozen-lockfile
 pnpm dev        # = vp dev
 ```
 
