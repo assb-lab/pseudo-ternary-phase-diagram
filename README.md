@@ -1,4 +1,10 @@
-# pseudo-ternary-phase-diagram
+# pseudo-ternary-phase-diagram (Deprecated)
+
+> [!IMPORTANT]
+> **Deprecated — moved to [Materials Thermodynamics Lab](https://github.com/assb-lab/materials-thermodynamics-lab).**
+>
+> このアプリの機能は Materials Thermodynamics Lab に統合されました。今後の開発・修正・不具合報告は統合先で管理します。
+
 
 Materials Project (MP) の DFT 計算エネルギーから、任意の 3 化合物 (または単体) を頂点とする
 **擬似三元相図** (例: Li2S–P2S5–LiCl) を描き、各組成で熱力学的に安定な相の組み合わせを可視化する静的 Web アプリです。
